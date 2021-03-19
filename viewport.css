@@ -1,0 +1,532 @@
+@media screen and (max-width:900px) {
+  .pc img {
+    display :none;
+  }
+  .ipad img {
+    display :block;
+  }
+  .ihone img {
+    display :none;
+  }
+/* ハンバーガーメニュー */
+  .hb_menu {
+    top :65px;
+    right :34px;
+  }
+/* ハンバーガーメニューここまで   */
+/* TPO画像に重なる四角形 */
+  .square{
+    top :41%;
+    left :13%;
+    width :177px;
+    height :177px;
+  }
+  .hb_triangle {
+    top :15%;
+    right :2%;
+    transform: rotate(140deg);
+    border-top: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+    border-left: 120px solid #FFFF00;
+  }
+/* TOP画像に重なる四角形ここまで */
+/* 共通幅 */
+  .inner {
+    width :700px;
+    margin :0 auto;
+  }
+/* メインビジュアルのテキスト調節 */
+  .main_text{
+    position :absolute;
+    top :167px;
+    left :124px;
+  }
+
+  .main_text p {
+    text-align: center;
+  }
+
+  .main_subText {
+    display: block;
+    text-align: center;
+    margin-left :0px;
+    margin-top :100px;
+  }
+/* メインビジュアルのテキストここまで */
+/* スクロール矢印位置を調節 */
+  .scroll {
+    right :50%;
+  }
+
+  .scroll p {
+    margin-right :0px;
+    margin-top :100px;
+  }
+
+  .scroll::before{
+    margin-top :170px;
+  }
+  /* スクロール矢印ここまで */
+  .profile_wrapper {
+    height :100vh;
+  }
+
+  .profile_title {
+    margin-top :100px;
+  }
+
+  .profile_Text {
+    margin-top :100px;
+  }
+
+  .profile_subTextv{
+    margin-top :100px;
+  }
+/* プロフィールの円 */
+  .profile_circle.fadeIn {
+    top :22%;
+    left :5%;
+  }
+  /* プロフィールの円ここまで */
+  /* プロフィールの三角形 */
+  .profile_triangle.fadeIn {
+    top :80%;
+    right :10%;
+  }
+  /* プロフィールの三角形ここまで */
+/* ワークエリア */
+  .contents:before {
+    height :85%;
+  }
+
+  .contents_inner {
+    width :700px;
+    margin :0 auto;
+  }
+
+  .modal {
+    width :500px;
+  }
+
+  .modal img {
+    width :500px;
+  }
+  /* ワークエリアここまで */
+  /* スキルエリア */
+  .skill_title {
+    margin :200px 0  50px 0;
+  }
+
+  .skill_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill_logo {
+    margin-top :40px;
+    margin-right :60px;
+  }
+
+  .skill_item.fadeIn {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .skill_text h3 {
+    text-align:left;
+    margin-bottom :0;
+  }
+/* スキルエリアここまで */
+  .contact_title {
+    margin :200px 0px 150px 0;
+  }
+  /* コンタクトエリア三角形 */
+  .contact_triangle.fade {
+    left :24%;
+  }
+
+  .twitter{
+    margin :80px 0;
+  }
+
+  .gmail {
+    margin-bottom :100px;
+  }
+  /* コンタクトエリア三角形ここまで */
+  .footer_square　{
+    width :150px;
+    height :150px;
+  }
+
+  .footer_circle {
+    width :200px;
+    height :200px;
+    left :8%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .inner {
+    width :350px;
+    margin :0 auto;
+  }
+
+  .pc img {
+    display :none;
+  }
+  .ipad img {
+    display :none;
+  }
+  .ihone img {
+    display :block;
+  }
+/* ハンバーガーメニュー */
+  .hb_menu {
+    width :50px;
+    height :50px;
+    top :65px;
+    right :22px;
+  }
+
+  .hb_menu span {
+    width :55%;
+    top :10px;
+    left :11px;
+  }
+
+  .hb_menu span:nth-of-type(2) {
+    top :18px;
+  }
+
+  .hb_menu span:nth-of-type(3) {
+    top :26px;
+  }
+
+  .hb_menu p {
+    font-size :13px;
+    color :#fff;
+    position: absolute;
+    top :25%;
+    left :13%;
+  }
+
+  .square{
+    top :30%;
+    left :20%;
+    width :110px;
+    height :240px;
+  }
+
+  .hb_triangle {
+    top :15%;
+    right :2%;
+    transform: rotate(140deg);
+    border-top: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 100px solid #FFFF00;
+  }
+
+  #nav li {
+    width :300px;
+    line-height: 5em;
+    margin :0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-between;
+  }
+
+  #nav ul a.font{
+    font-size :16px;
+    display :flex;
+    align-items: center;
+    width :180px;
+    justify-content: space-between;
+  }
+
+  .hb_menu span.active:nth-of-type(1){
+    -webkit-transform: translateY(8px) rotate(-45deg);
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hb_menu span.active:nth-of-type(3){
+    -webkit-transform: translateY(-8px) rotate(45deg);
+    transform: translateY(-8px) rotate(-45deg);
+  }
+/* メニュー開いた時の三角形 */
+  .triangle{
+    left :40%;
+    top :8%;
+  }
+
+  .triangle p{
+    font-size :18px;
+    top :-35px;
+    left :-100px;
+    z-index: 5;
+    color :#000;
+  }
+/* メニュー開いた時の三角形ここまで */
+  .main_text{
+    position :absolute;
+    top :150px;
+    left :0px;
+  }
+
+  .main_text h1 {
+    font-size :35px;
+  }
+
+  .main_text h1 span {
+    margin-left :100px;
+  }
+
+  .main_text p {
+    text-align: center;
+    font-size :18px;
+    letter-spacing: 0.2em;
+    margin-top :0px;
+    color :#000;
+  }
+
+  .main_subText {
+    margin-top :50px;
+  }
+/* スクロール矢印 */
+  .scroll {
+    display :none;
+    right :50%;
+  }
+
+  .scroll p {
+    margin-right :0px;
+    margin-top :50px;
+  }
+
+  .scroll::before{
+    margin-top :80px;
+  }
+  /* スクロール矢印ここまで */
+  .profile_wrapper {
+    height :100%;
+  }
+
+  .profile_title {
+    margin-top :0px;
+    padding-top :100px;
+  }
+
+  .profile_title h2{
+    font-size :35px;
+  }
+
+  .profile_Text {
+    width :300px;
+    margin :0 auto;
+    padding-top :30px;
+  }
+  /* プロフィールの円 */
+  .profile_circle.fadeIn {
+    width :120px;
+    height :120px;
+  }
+
+  .profile_subText {
+    width :300px;
+    margin :0 auto;
+    padding-top :30px;
+    letter-spacing: 0.1em;
+  }
+  /* プロフィールの円ここまで */
+  /* プロフィール三角形 */
+  .profile_triangle.fadeIn {
+    border-top: 4rem solid transparent;
+    border-right: 4rem solid transparent;
+    border-bottom: 4rem solid transparent;
+    border-left: 6rem solid #FFFF00;
+    top :85%;
+    right :10%;
+  }
+  /* プロフィール三角形ここまで */
+  /* プロフィールエリアここまで */
+  .work_wrapper {
+    width: 100%;
+    height: 100%;
+    padding :50px 0 0 0;
+  }
+  .contents {
+    position: relative;
+    overflow: hidden;
+    padding: 80px 0;
+    z-index: 2;
+  }
+  .contents:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 70%;
+    margin: 3% -10% 0;
+    background: #F67501;
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+    -webkit-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
+    z-index: -1;
+    transition: 0.8s;
+    height :300vh;
+  }
+
+  .fade::before {
+    width: 120%;
+  }
+
+  .contents_inner {
+    box-sizing: boder-box;
+    width: 100%;
+    max-width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  /* 帯再現ここまで */
+
+  .work_text h2 {
+    font-size :35px;
+  }
+
+  .workImg {
+    justify-content:center;
+    align-items: center;
+  }
+
+  .modal {
+    width :300px;
+  }
+
+  .modal img {
+    width :300px;
+  }
+  /* ワークエリアここまで */
+  .skill_title {
+    text-align: center;
+    line-height: 0.8em;
+    letter-spacing: 0.2em;
+    margin :100px 0  80px 0;
+  }
+
+  .skill_title h2{
+    font-size :35px;
+    margin-bottom :10px;
+    letter-spacing: 0.2em;
+  }
+
+  .skill_items {
+    display: block;
+    /* justify-content: space-between; */
+  }
+
+  .skill_logo {
+    width :150px;
+    height :150px;
+    border-radius: 100%;
+    background-color :#FFFF00;
+    /* box-shadow: 0px 3px 3px #797900; */
+    position: relative;
+  }
+
+  .skill_logo img {
+    position :absolute;
+    top :9%;
+    left :9%;
+  }
+
+  .skill_item{
+    opacity: 0;
+    transform : translate(0, 80px);
+  	transition : all 500ms;
+  }
+
+  .skill_item.fadeIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 1;
+    transform : translate(0,0);
+  }
+
+  .skill_item.fadeIn:nth-of-type(2) {
+    -moz-transition-delay:200ms;
+    -webkit-transition-delay:200ms;
+    -o-transition-delay:200ms;
+    -ms-transition-delay:200ms;
+  }
+
+  .skill_item.fadeIn:nth-of-type(3) {
+    -moz-transition-delay:400ms;
+    -webkit-transition-delay:400ms;
+    -o-transition-delay:400ms;
+    -ms-transition-delay:400ms;
+  }
+
+  .skill_text h3 {
+    text-align: center;
+    font-size :20px;
+    margin-top :40px;
+    margin-bottom :40x;
+  }
+
+  .skill_text p {
+    line-height: 1.6em;
+  }
+
+    .skill_logo {
+      margin-top :40px;
+      margin-right :0px;
+    }
+
+    /* スキルエリアここまで */
+    .contact_title h2 {
+      font-size :35px;
+    }
+
+    .contact_triangle.fade {
+      display:block;
+      position: absolute;
+      transform: rotate(140deg);
+      border-top: 4rem solid transparent;
+      border-right: 4rem solid transparent;
+      border-bottom: 4rem solid transparent;
+      border-left: 6rem solid #FFFF00;
+      left :16%;
+      z-index: -1;
+      animation: rotate 2s;
+      animation-name: contact_triangle;
+    }
+
+    .twitter{
+      margin :80px 0;
+    }
+
+    .gmail {
+      margin-bottom :80px;
+    }
+.footer_square {
+  width :75px;
+  height :75px;
+  z-index: -1;
+}
+
+.footer_circle {
+  width :150px;
+  height :150px;
+  bottom :50%;
+  left :8%;
+}
+}
